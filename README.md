@@ -1,2 +1,2 @@
 # mixins
-Sass mixins and functions
+A collection of Sass mixins and functions
