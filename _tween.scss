@@ -2,7 +2,13 @@
 // Tween
 //
 
-// $from, $to: Must be pixel values
+// A mixin to tween pixel values between two viewport widths
+
+//       $from: Pixel value at $start
+//         $to: Pixel value at $stop
+//      $start: Viewport width to start the tween
+//       $stop: Viewport width to stop the tween
+// $properties: List of properties
 
 @mixin tween($from, $to, $start, $stop, $properties...) {
   $range: $stop - $start;
